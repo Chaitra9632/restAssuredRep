@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="restAssured.api.projectScripts.GetAllProjects">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="getAllProjects"/>
+          <include name="configAfterSuite"/>
+        </methods>
+      </class> <!-- restAssured.api.projectScripts.GetAllProjects -->
+      <class name="restAssured.api.projectScripts.GetSingleProjectWithProjectId">
+        <methods>
+          <include name="getSingleProject"/>
+        </methods>
+      </class> <!-- restAssured.api.projectScripts.GetSingleProjectWithProjectId -->
+      <class name="restAssured.api.projectScripts.AddSingleProjectWithCreated">
+        <methods>
+          <include name="addSingleProject"/>
+        </methods>
+      </class> <!-- restAssured.api.projectScripts.AddSingleProjectWithCreated -->
+      <class name="restAssured.api.projectScripts.AddProjectWithCompletedStatus">
+        <methods>
+          <include name="addProjectwithCompleted"/>
+        </methods>
+      </class> <!-- restAssured.api.projectScripts.AddProjectWithCompletedStatus -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

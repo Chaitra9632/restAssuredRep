@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15579" started-at="2021-01-07T09:37:27Z" finished-at="2021-01-07T09:37:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15579" started-at="2021-01-07T09:37:27Z" finished-at="2021-01-07T09:37:43Z">
+      <class name="restAssured.api.projectScripts.GetAllProjects">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:restAssured.api.projectScripts.GetAllProjects@7823a2f9]" name="configBeforeSuite" is-config="true" duration-ms="7731" started-at="2021-01-07T15:07:19Z" finished-at="2021-01-07T15:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method status="PASS" signature="getAllProjects()[pri:0, instance:restAssured.api.projectScripts.GetAllProjects@7823a2f9]" name="getAllProjects" duration-ms="358" started-at="2021-01-07T15:07:42Z" finished-at="2021-01-07T15:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProjects -->
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:restAssured.api.projectScripts.GetAllProjects@7823a2f9]" name="configAfterSuite" is-config="true" duration-ms="6" started-at="2021-01-07T15:07:44Z" finished-at="2021-01-07T15:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- restAssured.api.projectScripts.GetAllProjects -->
+      <class name="restAssured.api.projectScripts.AddSingleProjectWithCreated">
+        <test-method status="PASS" signature="addSingleProject()[pri:0, instance:restAssured.api.projectScripts.AddSingleProjectWithCreated@d8355a8]" name="addSingleProject" duration-ms="8261" started-at="2021-01-07T15:07:34Z" finished-at="2021-01-07T15:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProject -->
+      </class> <!-- restAssured.api.projectScripts.AddSingleProjectWithCreated -->
+      <class name="restAssured.api.projectScripts.AddSingleProjectWithOngoing">
+        <test-method status="PASS" signature="addSingleProjectWithOngoingStatus()[pri:0, instance:restAssured.api.projectScripts.AddSingleProjectWithOngoing@28d25987]" name="addSingleProjectWithOngoingStatus" duration-ms="130" started-at="2021-01-07T15:07:33Z" finished-at="2021-01-07T15:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithOngoingStatus -->
+      </class> <!-- restAssured.api.projectScripts.AddSingleProjectWithOngoing -->
+      <class name="restAssured.api.projectScripts.GetSingleProjectWithProjectId">
+        <test-method status="PASS" signature="getSingleProject()[pri:0, instance:restAssured.api.projectScripts.GetSingleProjectWithProjectId@46d56d67]" name="getSingleProject" duration-ms="6206" started-at="2021-01-07T15:07:27Z" finished-at="2021-01-07T15:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleProject -->
+      </class> <!-- restAssured.api.projectScripts.GetSingleProjectWithProjectId -->
+      <class name="restAssured.api.projectScripts.AddProjectWithCompletedStatus">
+        <test-method status="PASS" signature="addProjectwithCompleted()[pri:0, instance:restAssured.api.projectScripts.AddProjectWithCompletedStatus@59fa1d9b]" name="addProjectwithCompleted" duration-ms="534" started-at="2021-01-07T15:07:42Z" finished-at="2021-01-07T15:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectwithCompleted -->
+      </class> <!-- restAssured.api.projectScripts.AddProjectWithCompletedStatus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
